@@ -19,7 +19,7 @@ seed_examples:
 
 task_description: 'Teach Model about IBM WatsonX'
 document:
-  repo: https://github.com/siva-28/watsonx-knowledge.git
+  repo: https://github.ibm.com/Siva-Muthuswamy/watsonx-knowledge.git
   commit: 636da5da09af24af25633dec946fee1a344420dc
   patterns:
    - watsonx.md
