@@ -1,0 +1,26 @@
+created_by: Siva M
+version: 2
+domain: sports
+seed_examples:
+ - question: What is Watsonx and what does it offer?
+   answer: |
+      Watsonx is IBM's commercial generative AI and scientific data platform based on the cloud. It offers a studio, data store, and governance toolkit. The platform supports multiple large language models (LLMs), including IBM's own Granite series, and is capable of fine-tuning models on newly introduced data. It is designed to be tailored to companies' needs and trained on their confidential data, which is not collected by IBM for further training of their models​
+ - question: When was Watsonx revealed and what is its naming origin?
+   answer: |
+      Watsonx was revealed on May 9, 2023, at the annual Think conference of IBM. The platform is named after Thomas J. Watson, IBM's founder and first CEO, similar to the earlier Watson AI computer
+ - question: What are some notable uses of Watsonx?
+   answer: |
+      Watsonx is currently used at ESPN's Fantasy Football App for managing players' performance and by the Italian telecommunications company Wind Tre. It was also used to generate editorial content around nominees during the 66th Annual Grammy Awards
+ - question: What are the key services provided by Watsonx?
+   answer: |
+      watsonx.ai: This platform allows AI developers to leverage a range of LLMs for various AI development tasks
+      watsonx.data: Designed to address issues related to data volume, complexity, cost, and governance, this platform offers seamless data access from the cloud or on-premises with a focus on data security and compliance.
+      watsonx.governance: This platform helps organizations implement comprehensive AI lifecycle governance to manage risks and maintain compliance with AI and industry regulations, reducing AI bias through software automation and enhancing regulatory compliance and ethical considerations​
+
+task_description: 'Teach Model about IBM WatsonX'
+document:
+  repo: https://github.ibm.com/Siva-Muthuswamy/watsonx-knowledge.git
+  commit: 636da5da09af24af25633dec946fee1a344420dc
+  patterns:
+   - watsonx.md
+   
